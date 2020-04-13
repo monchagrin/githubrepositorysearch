@@ -3,7 +3,7 @@ package com.oliwiakepczynska.githubrepositorysearch.repository
 import android.os.Parcel
 import android.os.Parcelable
 
-data class RepositoryOwner(
+data class RepositoryProprietor(
     val login: String?,
     val id: Int?,
     val avatar_url: String?,
@@ -25,12 +25,12 @@ data class RepositoryOwner(
         return 0
     }
 
-    companion object CREATOR : Parcelable.Creator<RepositoryOwner> {
-        override fun createFromParcel(parcel: Parcel): RepositoryOwner {
-            return RepositoryOwner(parcel)
+    companion object CREATOR : Parcelable.Creator<RepositoryProprietor> {
+        override fun createFromParcel(parcel: Parcel): RepositoryProprietor {
+            return RepositoryProprietor(parcel)
         }
 
-        override fun newArray(size: Int): Array<RepositoryOwner?> {
+        override fun newArray(size: Int): Array<RepositoryProprietor?> {
             return arrayOfNulls(size)
         }
     }
