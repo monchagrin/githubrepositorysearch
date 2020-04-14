@@ -7,18 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a33ee16-3f22-4c46-b42c-1e7972bcf2b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/NetworkClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/NetworkClient.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/NetworkService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/NetworkService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryDto.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/repository/Repository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/repository/Repository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/repository/RepositoryProprietor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/repository/RepositoryProprietor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/StatsCachingException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/StatsCachingException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/repository/GithubRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/repository/GithubRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/repository/GithubUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/repository/GithubUtils.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +35,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>

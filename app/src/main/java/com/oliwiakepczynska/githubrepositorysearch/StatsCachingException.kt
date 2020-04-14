@@ -1,4 +1,3 @@
 package com.oliwiakepczynska.githubrepositorysearch
 
-class StatsCachingException {
-}
+class StatsCachingException : Throwable()
