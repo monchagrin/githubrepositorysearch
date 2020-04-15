@@ -1,2 +1,2 @@
-# githubrepositorysearch
+# Github Repository Search Application
 Sample app to search repositories on GitHub. It uses the latest cutting edge libraries and tools. 
