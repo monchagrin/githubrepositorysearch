@@ -10,15 +10,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a33ee16-3f22-4c46-b42c-1e7972bcf2b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/detail/RepositoryDetailsDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/error/StatsCachingException.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/ErrorsInteractor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/domain/error/ErrorsInteractor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/ErrorsPresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/domain/error/ErrorsPresenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/FragmentNavigator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/FragmentNavigator.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/NetworkClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/domain/data/NetworkClient.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/NetworkService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/domain/data/NetworkService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/repository/RepositoryDetails.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/repository/RepositoryDetails.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryDetailsDto.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryDetailsFragmentInternal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/detail/RepositoryDetailsFragmentInternal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryDetailsInteractor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/detail/RepositoryDetailsInteractor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryDetailsPresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/detail/RepositoryDetailsPresenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/domain/entity/RepositoryDto.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/list/RepositoryListAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryListInteractor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/list/RepositoryListInteractor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryListPresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/list/RepositoryListPresenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryListView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/list/RepositoryListView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/SingleFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/base/SingleFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/StatsCachingException.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/domain/data/NetworkService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/domain/data/NetworkService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/domain/entity/RepositoryDetails.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/domain/entity/RepositoryDetails.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/repository/RepositoryRemoteData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/repository/RepositoryRemoteData.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryDetailsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryDetailsTest.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +74,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Oliwia\Downloads\PROJEKTY\GithubRepositorySearch\app\src\main\java\com\oliwiakepczynska\githubrepositorysearch\domain\entity" />
+      <recent name="C:\Users\Oliwia\Downloads\PROJEKTY\GithubRepositorySearch\app\src\main\java\com\oliwiakepczynska\githubrepositorysearch\list" />
+      <recent name="C:\Users\Oliwia\Downloads\PROJEKTY\GithubRepositorySearch\app\src\main\java\com\oliwiakepczynska\githubrepositorysearch\detail" />
       <recent name="C:\Users\Oliwia\Downloads\PROJEKTY\GithubRepositorySearch\app\src\main\java\com\oliwiakepczynska\githubrepositorysearch\error" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
@@ -71,7 +84,11 @@
       <recent name="com.oliwiakepczynska.githubrepositorysearch" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="com.oliwiakepczynska.githubrepositorysearch.data" />
+      <recent name="com.oliwiakepczynska.githubrepositorysearch.base" />
+      <recent name="com.oliwiakepczynska.githubrepositorysearch.list" />
+      <recent name="com.oliwiakepczynska.githubrepositorysearch.detail" />
+      <recent name="com.oliwiakepczynska.githubrepositorysearch.error" />
+      <recent name="com.oliwiakepczynska.githubrepositorysearch.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Oliwia\Downloads\PROJEKTY\GithubRepositorySearch\app\src\main\java\com\oliwiakepczynska\githubrepositorysearch" />
@@ -219,9 +236,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-field">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/repository/Repository.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/domain/entity/Repository.kt</url>
           <line>9</line>
-          <properties myFieldName="owner" myClassName="com.oliwiakepczynska.githubrepositorysearch.repository.Repository" />
+          <properties myFieldName="full_name" myClassName="com.oliwiakepczynska.githubrepositorysearch.domain.entity.Repository" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

@@ -1,6 +1,5 @@
 package com.oliwiakepczynska.githubrepositorysearch.domain.entity
 
-import com.oliwiakepczynska.githubrepositorysearch.*
 import com.oliwiakepczynska.githubrepositorysearch.domain.data.NetworkClient
 import com.oliwiakepczynska.githubrepositorysearch.domain.data.NetworkService
 import com.oliwiakepczynska.githubrepositorysearch.repository.RepositoryRemoteData

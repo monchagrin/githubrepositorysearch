@@ -1,9 +1,8 @@
 package com.oliwiakepczynska.githubrepositorysearch.repository
 
-import com.oliwiakepczynska.githubrepositorysearch.*
 import com.oliwiakepczynska.githubrepositorysearch.domain.data.NetworkService
-import com.oliwiakepczynska.githubrepositorysearch.domain.entity.Repository
-import com.oliwiakepczynska.githubrepositorysearch.domain.entity.RepositoryDetails
+import com.oliwiakepczynska.githubrepositorysearch.domain.entity.*
+import com.oliwiakepczynska.githubrepositorysearch.presenter.error.StatsCachingException
 import io.reactivex.Observable
 import io.reactivex.subjects.PublishSubject
 import java.util.concurrent.TimeUnit
@@ -17,7 +16,13 @@ class RepositoryRemoteData(
         executeRequest(api.getAllRepositories(), emptyList())
 
     override fun searchRepository(query: String): Observable<RepositorySearchDto> =
-        executeRequest(api.searchForRepositories(query), RepositorySearchDto(0, true, emptyList()))
+        executeRequest(api.searchForRepositories(query),
+            RepositorySearchDto(
+                0,
+                true,
+                emptyList()
+            )
+        )
 
     override fun getCommitsForRepository(
         user: String,

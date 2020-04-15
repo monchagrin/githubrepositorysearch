@@ -1,4 +1,4 @@
-package com.oliwiakepczynska.githubrepositorysearch
+package com.oliwiakepczynska.githubrepositorysearch.presenter.detail
 
 import com.oliwiakepczynska.githubrepositorysearch.domain.entity.RepositoryDetails
 import com.oliwiakepczynska.githubrepositorysearch.domain.entity.Repository
@@ -10,8 +10,14 @@ interface IRepositoryDetailsService {
     fun onDetailsLoaded(func: (details: RepositoryDetailsDto) -> Unit)
 
     companion object {
-        fun create() = RepositoryDetailsInteractor(RepositoryDetails.create())
-        fun create(repository: RepositoryDetails) = RepositoryDetailsInteractor(repository)
+        fun create() =
+            RepositoryDetailsInteractor(
+                RepositoryDetails.create()
+            )
+        fun create(repository: RepositoryDetails) =
+            RepositoryDetailsInteractor(
+                repository
+            )
     }
 }
 
@@ -21,7 +27,10 @@ interface IRepositoryDetailsView {
     fun repositoryInformationLoaded(details: RepositoryDetailsDto)
 
     companion object {
-        fun create(repository: Repository) = RepositoryDetailsFragment.newInstance(repository)
+        fun create(repository: Repository) =
+            RepositoryDetailsFragment.newInstance(
+                repository
+            )
     }
 }
 

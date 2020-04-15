@@ -1,8 +1,8 @@
 package com.oliwiakepczynska.githubrepositorysearch.domain.data
 
-import com.oliwiakepczynska.githubrepositorysearch.BranchDto
-import com.oliwiakepczynska.githubrepositorysearch.CommitsDto
-import com.oliwiakepczynska.githubrepositorysearch.RepositorySearchDto
+import com.oliwiakepczynska.githubrepositorysearch.domain.entity.BranchDto
+import com.oliwiakepczynska.githubrepositorysearch.domain.entity.CommitsDto
+import com.oliwiakepczynska.githubrepositorysearch.domain.entity.RepositorySearchDto
 import com.oliwiakepczynska.githubrepositorysearch.domain.entity.Repository
 import io.reactivex.Observable
 import retrofit2.Response

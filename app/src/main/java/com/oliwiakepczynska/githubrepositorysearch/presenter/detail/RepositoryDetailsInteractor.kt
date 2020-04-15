@@ -1,4 +1,4 @@
-package com.oliwiakepczynska.githubrepositorysearch
+package com.oliwiakepczynska.githubrepositorysearch.presenter.detail
 
 
 import com.oliwiakepczynska.githubrepositorysearch.domain.entity.RepositoryDetails
@@ -7,7 +7,8 @@ import io.reactivex.rxkotlin.Observables
 import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.PublishSubject
 
-class RepositoryDetailsInteractor(private val repository: RepositoryDetails) : IRepositoryDetailsService {
+class RepositoryDetailsInteractor(private val repository: RepositoryDetails) :
+    IRepositoryDetailsService {
 
     private val commitsCountSubject = PublishSubject.create<Int>()
     private val branchesCountSubject = PublishSubject.create<Int>()
@@ -40,7 +41,10 @@ class RepositoryDetailsInteractor(private val repository: RepositoryDetails) : I
     private fun combineRepositoryDetailsInternal() {
         Observables
             .combineLatest(commitsCountSubject, branchesCountSubject, { commits, branches ->
-                RepositoryDetailsDto(commits, branches)
+                RepositoryDetailsDto(
+                    commits,
+                    branches
+                )
             })
             .subscribe { repositoryDetailsPublishSubject.onNext(it) }
     }

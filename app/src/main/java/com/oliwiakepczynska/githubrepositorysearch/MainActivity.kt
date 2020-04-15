@@ -7,6 +7,7 @@ import com.oliwiakepczynska.githubrepositorysearch.domain.error.GenericErrorsPre
 import com.oliwiakepczynska.githubrepositorysearch.domain.error.IErrorsInteractor
 import com.oliwiakepczynska.githubrepositorysearch.domain.error.IErrorsView
 import com.oliwiakepczynska.githubrepositorysearch.domain.entity.RepositoryDetails
+import com.oliwiakepczynska.githubrepositorysearch.presenter.list.IRepositoryListView
 
 class MainActivity : AppCompatActivity(),
     IErrorsView {

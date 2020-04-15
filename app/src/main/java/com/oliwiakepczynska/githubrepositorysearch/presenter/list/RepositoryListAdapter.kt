@@ -1,4 +1,4 @@
-package com.oliwiakepczynska.githubrepositorysearch
+package com.oliwiakepczynska.githubrepositorysearch.presenter.list
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -19,7 +19,11 @@ class RepoListAdapter(private val repositoryClicked: (repository: Repository) ->
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int):
 
             RepoItemViewHolder =
-        RepoItemViewHolder((RepositoryRowBinding.inflate(LayoutInflater.from(parent.context))))
+        RepoItemViewHolder(
+            (RepositoryRowBinding.inflate(
+                LayoutInflater.from(parent.context)
+            ))
+        )
 
     override fun getItemCount(): Int = repos.size
 

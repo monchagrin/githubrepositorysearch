@@ -1,4 +1,4 @@
-package com.oliwiakepczynska.githubrepositorysearch
+package com.oliwiakepczynska.githubrepositorysearch.presenter.base
 
 import android.os.Bundle
 import android.view.LayoutInflater

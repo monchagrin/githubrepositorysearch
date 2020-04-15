@@ -1,6 +1,7 @@
 package com.oliwiakepczynska.githubrepositorysearch
 
 import androidx.fragment.app.FragmentManager
+import com.oliwiakepczynska.githubrepositorysearch.presenter.detail.IRepositoryDetailsView
 import com.oliwiakepczynska.githubrepositorysearch.domain.entity.Repository
 
 object FragmentNavigator {

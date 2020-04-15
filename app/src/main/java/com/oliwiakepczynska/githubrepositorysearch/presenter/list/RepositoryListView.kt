@@ -1,9 +1,12 @@
-package com.oliwiakepczynska.githubrepositorysearch
+package com.oliwiakepczynska.githubrepositorysearch.presenter.list
 
 import android.os.Bundle
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.jakewharton.rxbinding2.widget.RxTextView
+import com.oliwiakepczynska.githubrepositorysearch.FragmentNavigator
+import com.oliwiakepczynska.githubrepositorysearch.R
+import com.oliwiakepczynska.githubrepositorysearch.presenter.base.SingleFragment
 import com.oliwiakepczynska.githubrepositorysearch.databinding.ContentMainBinding
 import com.oliwiakepczynska.githubrepositorysearch.domain.entity.Repository
 import io.reactivex.android.schedulers.AndroidSchedulers
@@ -11,15 +14,21 @@ import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.PublishSubject
 import java.util.concurrent.TimeUnit
 
-open class RepositoryListFragmentInternal : SingleFragment<ContentMainBinding>(), IRepositoryListView {
-    override fun getLayoutId(): Int = R.layout.content_main
+open class RepositoryListFragmentInternal : SingleFragment<ContentMainBinding>(),
+    IRepositoryListView {
+    override fun getLayoutId(): Int =
+        R.layout.content_main
 
     private val loadItemsSubject: PublishSubject<Any> = PublishSubject.create()
     private val searchItemsSubject: PublishSubject<String> = PublishSubject.create()
 
-    private val adapter = RepoListAdapter {
-        FragmentNavigator.openRepositoryDetails(fragmentManager!!, it)
-    }
+    private val adapter =
+        RepoListAdapter {
+            FragmentNavigator.openRepositoryDetails(
+                fragmentManager!!,
+                it
+            )
+        }
 
     private val unsubscribe = PublishSubject.create<Any>()
 
@@ -68,11 +77,15 @@ open class RepositoryListFragmentInternal : SingleFragment<ContentMainBinding>()
 class RepositoryListFragment : RepositoryListFragmentInternal() {
 
     companion object {
-        fun newInstance(): RepositoryListFragment = RepositoryListFragment()
+        fun newInstance(): RepositoryListFragment =
+            RepositoryListFragment()
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        RepositoryListPresenter(this, IRepositoryListService.create())
+        RepositoryListPresenter(
+            this,
+            IRepositoryListService.create()
+        )
         super.onViewCreated(view, savedInstanceState)
     }
 }

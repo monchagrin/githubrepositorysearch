@@ -1,4 +1,4 @@
-package com.oliwiakepczynska.githubrepositorysearch
+package com.oliwiakepczynska.githubrepositorysearch.presenter.list
 
 import com.oliwiakepczynska.githubrepositorysearch.domain.entity.RepositoryDetails
 import com.oliwiakepczynska.githubrepositorysearch.domain.entity.Repository
@@ -9,7 +9,8 @@ interface IRepositoryListView {
     fun itemsLoaded(items: List<Repository>)
 
     companion object {
-        fun create() = RepositoryListFragment.newInstance()
+        fun create() =
+            RepositoryListFragment.newInstance()
     }
 }
 
@@ -19,8 +20,14 @@ interface IRepositoryListService {
     fun onReposFound(func: (List<Repository>) -> Unit)
 
     companion object {
-        fun create() = RepositoryListInteractor(RepositoryDetails.create())
-        fun create(repository: RepositoryDetails) = RepositoryListInteractor(repository)
+        fun create() =
+            RepositoryListInteractor(
+                RepositoryDetails.create()
+            )
+        fun create(repository: RepositoryDetails) =
+            RepositoryListInteractor(
+                repository
+            )
     }
 }
 

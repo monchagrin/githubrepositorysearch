@@ -1,19 +1,23 @@
-package com.oliwiakepczynska.githubrepositorysearch
+package com.oliwiakepczynska.githubrepositorysearch.presenter.detail
 
 import android.os.Bundle
 import android.view.View
+import com.oliwiakepczynska.githubrepositorysearch.*
+import com.oliwiakepczynska.githubrepositorysearch.presenter.base.SingleFragment
 import com.oliwiakepczynska.githubrepositorysearch.databinding.RepositoryDetailsBinding
 import com.oliwiakepczynska.githubrepositorysearch.domain.entity.Repository
 
 import io.reactivex.subjects.PublishSubject
 
-open class RepositoryDetailsFragmentInternal : SingleFragment<RepositoryDetailsBinding>(), IRepositoryDetailsView {
+open class RepositoryDetailsFragmentInternal : SingleFragment<RepositoryDetailsBinding>(),
+    IRepositoryDetailsView {
 
     companion object {
         const val REPOSITORY_KEY = "RepositoryUrlKey"
     }
 
-    override fun getLayoutId(): Int = R.layout.repository_details
+    override fun getLayoutId(): Int =
+        R.layout.repository_details
 
     private lateinit var repository: Repository
 
@@ -48,7 +52,10 @@ class RepositoryDetailsFragment : RepositoryDetailsFragmentInternal() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        RepositoryDetailsPresenter(this, IRepositoryDetailsService.create())
+        RepositoryDetailsPresenter(
+            this,
+            IRepositoryDetailsService.create()
+        )
         super.onViewCreated(view, savedInstanceState)
     }
 }

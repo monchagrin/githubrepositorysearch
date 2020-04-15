@@ -1,4 +1,4 @@
-package com.oliwiakepczynska.githubrepositorysearch
+package com.oliwiakepczynska.githubrepositorysearch.domain.entity
 
 import com.oliwiakepczynska.githubrepositorysearch.domain.entity.Repository
 
