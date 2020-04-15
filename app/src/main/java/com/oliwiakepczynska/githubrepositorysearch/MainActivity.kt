@@ -1,8 +1,8 @@
 package com.oliwiakepczynska.githubrepositorysearch
 
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.snackbar.Snackbar
 import com.oliwiakepczynska.githubrepositorysearch.repository.GithubUtils
 
 class MainActivity : AppCompatActivity(), IErrorsView {
@@ -22,9 +22,6 @@ class MainActivity : AppCompatActivity(), IErrorsView {
     }
 
     override fun onNoInternetConnectionError() {
-        Toast.makeText(
-            this@MainActivity,
-            "No Internet connection.", Toast.LENGTH_LONG
-        ).show();
+        Snackbar.make(findViewById(android.R.id.content), "No internet connection", Snackbar.LENGTH_SHORT).show()
     }
 }
