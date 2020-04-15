@@ -1,13 +1,13 @@
 package com.oliwiakepczynska.githubrepositorysearch
 
 
-import com.oliwiakepczynska.githubrepositorysearch.repository.GithubUtils
+import com.oliwiakepczynska.githubrepositorysearch.repository.RepositoryDetails
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.rxkotlin.Observables
 import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.PublishSubject
 
-class RepositoryDetailsInteractor(private val repository: GithubUtils) : IRepositoryDetailsService {
+class RepositoryDetailsInteractor(private val repository: RepositoryDetails) : IRepositoryDetailsService {
 
     private val commitsCountSubject = PublishSubject.create<Int>()
     private val branchesCountSubject = PublishSubject.create<Int>()

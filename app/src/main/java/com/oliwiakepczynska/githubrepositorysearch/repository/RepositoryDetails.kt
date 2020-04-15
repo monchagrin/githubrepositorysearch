@@ -4,19 +4,19 @@ import com.oliwiakepczynska.githubrepositorysearch.*
 import io.reactivex.Observable
 import io.reactivex.subjects.PublishSubject
 
-interface GithubUtils {
+interface RepositoryDetails {
     fun getAllRepositories(): Observable<List<Repository>>
     fun searchRepository(query: String): Observable<RepositorySearchDto>
     fun getCommitsForRepository(user: String, repository: String): Observable<List<CommitsDto>>
     fun getBranchesForRepository(user: String, repository: String): Observable<List<BranchDto>>
 
     companion object {
-        fun create(): GithubUtils {
-            return GithubRepository(NetworkClient.create(), errorsStream)
+        fun create(): RepositoryDetails {
+            return RepositoryRemoteData(NetworkClient.create(), errorsStream)
         }
 
-        fun create(api: NetworkService, errorsStream: PublishSubject<Throwable>): GithubUtils {
-            return GithubRepository(api, errorsStream)
+        fun create(api: NetworkService, errorsStream: PublishSubject<Throwable>): RepositoryDetails {
+            return RepositoryRemoteData(api, errorsStream)
         }
 
         val errorsStream: PublishSubject<Throwable> = PublishSubject.create()

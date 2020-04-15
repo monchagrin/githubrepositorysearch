@@ -1,12 +1,12 @@
 package com.oliwiakepczynska.githubrepositorysearch
 
-import com.oliwiakepczynska.githubrepositorysearch.repository.GithubUtils
+import com.oliwiakepczynska.githubrepositorysearch.repository.RepositoryDetails
 import com.oliwiakepczynska.githubrepositorysearch.repository.Repository
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.PublishSubject
 
-class RepositoryListInteractor(private val repository: GithubUtils) : IRepositoryListService {
+class RepositoryListInteractor(private val repository: RepositoryDetails) : IRepositoryListService {
 
     private val reposFoundSubject: PublishSubject<List<Repository>> = PublishSubject.create()
 

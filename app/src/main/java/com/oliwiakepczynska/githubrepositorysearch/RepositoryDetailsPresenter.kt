@@ -1,6 +1,6 @@
 package com.oliwiakepczynska.githubrepositorysearch
 
-import com.oliwiakepczynska.githubrepositorysearch.repository.GithubUtils
+import com.oliwiakepczynska.githubrepositorysearch.repository.RepositoryDetails
 import com.oliwiakepczynska.githubrepositorysearch.repository.Repository
 
 
@@ -10,8 +10,8 @@ interface IRepositoryDetailsService {
     fun onDetailsLoaded(func: (details: RepositoryDetailsDto) -> Unit)
 
     companion object {
-        fun create() = RepositoryDetailsInteractor(GithubUtils.create())
-        fun create(repository: GithubUtils) = RepositoryDetailsInteractor(repository)
+        fun create() = RepositoryDetailsInteractor(RepositoryDetails.create())
+        fun create(repository: RepositoryDetails) = RepositoryDetailsInteractor(repository)
     }
 }
 

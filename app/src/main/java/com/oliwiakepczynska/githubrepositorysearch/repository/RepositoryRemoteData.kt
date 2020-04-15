@@ -5,10 +5,10 @@ import io.reactivex.Observable
 import io.reactivex.subjects.PublishSubject
 import java.util.concurrent.TimeUnit
 
-class GithubRepository(
+class RepositoryRemoteData(
     private val api: NetworkService,
     private val errorsStream: PublishSubject<Throwable>
-) : GithubUtils {
+) : RepositoryDetails {
 
     override fun getAllRepositories(): Observable<List<Repository>> =
         executeRequest(api.getAllRepositories(), emptyList())

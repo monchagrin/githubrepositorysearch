@@ -3,7 +3,7 @@ package com.oliwiakepczynska.githubrepositorysearch
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.snackbar.Snackbar
-import com.oliwiakepczynska.githubrepositorysearch.repository.GithubUtils
+import com.oliwiakepczynska.githubrepositorysearch.repository.RepositoryDetails
 
 class MainActivity : AppCompatActivity(), IErrorsView {
 
@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity(), IErrorsView {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setContentFragment()
-        GenericErrorsPresenter(this, IErrorsInteractor.create(GithubUtils.errorsStream))
+        GenericErrorsPresenter(this, IErrorsInteractor.create(RepositoryDetails.errorsStream))
     }
 
     private fun setContentFragment() {

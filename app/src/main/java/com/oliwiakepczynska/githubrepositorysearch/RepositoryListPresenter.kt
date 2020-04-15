@@ -1,6 +1,6 @@
 package com.oliwiakepczynska.githubrepositorysearch
 
-import com.oliwiakepczynska.githubrepositorysearch.repository.GithubUtils
+import com.oliwiakepczynska.githubrepositorysearch.repository.RepositoryDetails
 import com.oliwiakepczynska.githubrepositorysearch.repository.Repository
 
 interface IRepositoryListView {
@@ -19,8 +19,8 @@ interface IRepositoryListService {
     fun onReposFound(func: (List<Repository>) -> Unit)
 
     companion object {
-        fun create() = RepositoryListInteractor(GithubUtils.create())
-        fun create(repository: GithubUtils) = RepositoryListInteractor(repository)
+        fun create() = RepositoryListInteractor(RepositoryDetails.create())
+        fun create(repository: RepositoryDetails) = RepositoryListInteractor(repository)
     }
 }
 
