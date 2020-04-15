@@ -54,18 +54,18 @@ open class RepositoryListFragmentInternal : SingleFragment<ContentMainBinding>()
 
     private fun setupSearch() {
         RxTextView
-                .textChanges(binding.contentMainSearch)
-                .debounce(300, TimeUnit.MILLISECONDS)
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .map { it.trim() }
-                .subscribe {
-                    if (it.isEmpty()) {
-                        loadItemsSubject.onNext(Any())
-                    } else {
-                        searchItemsSubject.onNext(it.trim().toString())
-                    }
+            .textChanges(binding.contentMainSearch)
+            .debounce(300, TimeUnit.MILLISECONDS)
+            .subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
+            .map { it.trim() }
+            .subscribe {
+                if (it.isEmpty()) {
+                    loadItemsSubject.onNext(Any())
+                } else {
+                    searchItemsSubject.onNext(it.trim().toString())
                 }
+            }
     }
 
     override fun onDestroyView() {

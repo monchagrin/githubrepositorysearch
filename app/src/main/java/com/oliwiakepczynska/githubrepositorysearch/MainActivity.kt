@@ -32,6 +32,10 @@ class MainActivity : AppCompatActivity(),
     }
 
     override fun onNoInternetConnectionError() {
-        Snackbar.make(findViewById(android.R.id.content), "No internet connection", Snackbar.LENGTH_SHORT).show()
+        Snackbar.make(
+            findViewById(android.R.id.content),
+            "No internet connection",
+            Snackbar.LENGTH_SHORT
+        ).show()
     }
 }

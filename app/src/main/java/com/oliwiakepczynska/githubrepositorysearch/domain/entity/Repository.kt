@@ -11,7 +11,8 @@ data class Repository(
     val owner: RepositoryProprietor?,
     val private: Boolean,
     val url: String?,
-    val description: String?) : Parcelable {
+    val description: String?
+) : Parcelable {
     constructor(parcel: Parcel) : this(
         parcel.readValue(Int::class.java.classLoader) as? Int,
         parcel.readString(),

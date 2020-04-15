@@ -3,7 +3,6 @@ package com.oliwiakepczynska.githubrepositorysearch.presenter.detail
 import com.oliwiakepczynska.githubrepositorysearch.domain.entity.RepositoryDetails
 import com.oliwiakepczynska.githubrepositorysearch.domain.entity.Repository
 
-
 interface IRepositoryDetailsService {
 
     fun getRepositoryDetails(user: String, repositoryName: String)
@@ -14,6 +13,7 @@ interface IRepositoryDetailsService {
             RepositoryDetailsInteractor(
                 RepositoryDetails.create()
             )
+
         fun create(repository: RepositoryDetails) =
             RepositoryDetailsInteractor(
                 repository

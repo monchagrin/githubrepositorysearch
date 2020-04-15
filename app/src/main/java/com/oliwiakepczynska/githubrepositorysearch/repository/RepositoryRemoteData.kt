@@ -16,7 +16,8 @@ class RepositoryRemoteData(
         executeRequest(api.getAllRepositories(), emptyList())
 
     override fun searchRepository(query: String): Observable<RepositorySearchDto> =
-        executeRequest(api.searchForRepositories(query),
+        executeRequest(
+            api.searchForRepositories(query),
             RepositorySearchDto(
                 0,
                 true,

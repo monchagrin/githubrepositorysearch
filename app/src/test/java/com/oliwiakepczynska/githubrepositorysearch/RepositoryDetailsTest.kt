@@ -22,7 +22,8 @@ class RepositoryDetailsTest {
     fun setup() {
         mockWebServer.start()
         sut = RepositoryDetails.create(
-            NetworkClient.create(mockWebServer.url("/").toString()), errorsStream)
+            NetworkClient.create(mockWebServer.url("/").toString()), errorsStream
+        )
     }
 
     @After

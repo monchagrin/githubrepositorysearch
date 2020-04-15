@@ -1,6 +1,5 @@
 package com.oliwiakepczynska.githubrepositorysearch.presenter.detail
 
-
 import com.oliwiakepczynska.githubrepositorysearch.domain.entity.RepositoryDetails
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.rxkotlin.Observables

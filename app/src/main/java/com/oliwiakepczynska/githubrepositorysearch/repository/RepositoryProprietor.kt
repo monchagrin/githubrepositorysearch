@@ -7,12 +7,14 @@ data class RepositoryProprietor(
     val login: String?,
     val id: Int?,
     val avatar_url: String?,
-    val url: String?) : Parcelable {
+    val url: String?
+) : Parcelable {
     constructor(parcel: Parcel) : this(
         parcel.readString(),
         parcel.readValue(Int::class.java.classLoader) as? Int,
         parcel.readString(),
-        parcel.readString())
+        parcel.readString()
+    )
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
         parcel.writeString(login)

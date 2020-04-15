@@ -25,7 +25,8 @@ open class RepositoryDetailsFragmentInternal : SingleFragment<RepositoryDetailsB
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        repository = arguments?.getParcelable(REPOSITORY_KEY) ?: throw IllegalArgumentException("A valid repository must be provided")
+        repository = arguments?.getParcelable(REPOSITORY_KEY)
+            ?: throw IllegalArgumentException("A valid repository must be provided")
         binding.repositoryDetailsAuthor.text = repository.name
         binding.repositoryDetailsDescription.text = repository.description
         loadDetailsSubject.onNext(Any())
@@ -44,11 +45,12 @@ open class RepositoryDetailsFragmentInternal : SingleFragment<RepositoryDetailsB
 class RepositoryDetailsFragment : RepositoryDetailsFragmentInternal() {
 
     companion object {
-        fun newInstance(repository: Repository): RepositoryDetailsFragment = RepositoryDetailsFragment().apply {
-            arguments = Bundle().apply {
-                putParcelable(REPOSITORY_KEY, repository)
+        fun newInstance(repository: Repository): RepositoryDetailsFragment =
+            RepositoryDetailsFragment().apply {
+                arguments = Bundle().apply {
+                    putParcelable(REPOSITORY_KEY, repository)
+                }
             }
-        }
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

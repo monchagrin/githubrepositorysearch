@@ -10,8 +10,8 @@ class ErrorsInteractor(private val errorsStream: Observable<Throwable>) :
 
     override fun onNoInternetConnectionError(onError: (exception: Throwable) -> Unit) {
         errorsStream
-                .filter { it is UnknownHostException }
-                .map { NoInternetConnectionException() }
-                .subscribe { onError(it) }
+            .filter { it is UnknownHostException }
+            .map { NoInternetConnectionException() }
+            .subscribe { onError(it) }
     }
 }

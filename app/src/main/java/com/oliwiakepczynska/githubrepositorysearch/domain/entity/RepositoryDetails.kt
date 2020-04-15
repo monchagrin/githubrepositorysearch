@@ -20,7 +20,10 @@ interface RepositoryDetails {
             )
         }
 
-        fun create(api: NetworkService, errorsStream: PublishSubject<Throwable>): RepositoryDetails {
+        fun create(
+            api: NetworkService,
+            errorsStream: PublishSubject<Throwable>
+        ): RepositoryDetails {
             return RepositoryRemoteData(
                 api,
                 errorsStream

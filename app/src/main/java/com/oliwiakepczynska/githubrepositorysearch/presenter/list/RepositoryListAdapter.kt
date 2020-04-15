@@ -9,7 +9,6 @@ import com.oliwiakepczynska.githubrepositorysearch.domain.entity.Repository
 import com.squareup.picasso.Picasso
 import io.reactivex.subjects.PublishSubject
 
-
 class RepoListAdapter(private val repositoryClicked: (repository: Repository) -> Unit) :
     RecyclerView.Adapter<RepoItemViewHolder>() {
 

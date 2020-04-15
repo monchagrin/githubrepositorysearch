@@ -24,6 +24,7 @@ interface IRepositoryListService {
             RepositoryListInteractor(
                 RepositoryDetails.create()
             )
+
         fun create(repository: RepositoryDetails) =
             RepositoryListInteractor(
                 repository
