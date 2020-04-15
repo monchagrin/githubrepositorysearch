@@ -1,7 +1,8 @@
-package com.oliwiakepczynska.githubrepositorysearch.repository
+package com.oliwiakepczynska.githubrepositorysearch.domain.entity
 
 import android.os.Parcel
 import android.os.Parcelable
+import com.oliwiakepczynska.githubrepositorysearch.repository.RepositoryProprietor
 
 data class Repository(
     val id: Int?,
@@ -37,7 +38,9 @@ data class Repository(
 
     companion object CREATOR : Parcelable.Creator<Repository> {
         override fun createFromParcel(parcel: Parcel): Repository {
-            return Repository(parcel)
+            return Repository(
+                parcel
+            )
         }
 
         override fun newArray(size: Int): Array<Repository?> {

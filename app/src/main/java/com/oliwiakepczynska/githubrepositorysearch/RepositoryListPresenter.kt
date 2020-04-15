@@ -1,7 +1,7 @@
 package com.oliwiakepczynska.githubrepositorysearch
 
-import com.oliwiakepczynska.githubrepositorysearch.repository.RepositoryDetails
-import com.oliwiakepczynska.githubrepositorysearch.repository.Repository
+import com.oliwiakepczynska.githubrepositorysearch.domain.entity.RepositoryDetails
+import com.oliwiakepczynska.githubrepositorysearch.domain.entity.Repository
 
 interface IRepositoryListView {
     fun loadItems(func: () -> Unit)

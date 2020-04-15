@@ -3,7 +3,7 @@ package com.oliwiakepczynska.githubrepositorysearch
 import android.os.Bundle
 import android.view.View
 import com.oliwiakepczynska.githubrepositorysearch.databinding.RepositoryDetailsBinding
-import com.oliwiakepczynska.githubrepositorysearch.repository.Repository
+import com.oliwiakepczynska.githubrepositorysearch.domain.entity.Repository
 
 import io.reactivex.subjects.PublishSubject
 

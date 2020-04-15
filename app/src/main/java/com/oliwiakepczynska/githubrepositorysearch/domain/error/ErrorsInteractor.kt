@@ -1,11 +1,12 @@
-package com.oliwiakepczynska.githubrepositorysearch
+package com.oliwiakepczynska.githubrepositorysearch.domain.error
 
 import io.reactivex.Observable
 import java.net.UnknownHostException
 
 class NoInternetConnectionException : Throwable()
 
-class ErrorsInteractor(private val errorsStream: Observable<Throwable>) : IErrorsInteractor {
+class ErrorsInteractor(private val errorsStream: Observable<Throwable>) :
+    IErrorsInteractor {
 
     override fun onNoInternetConnectionError(onError: (exception: Throwable) -> Unit) {
         errorsStream

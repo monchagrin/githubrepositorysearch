@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.jakewharton.rxbinding2.view.RxView
 import com.oliwiakepczynska.githubrepositorysearch.databinding.RepositoryRowBinding
-import com.oliwiakepczynska.githubrepositorysearch.repository.Repository
+import com.oliwiakepczynska.githubrepositorysearch.domain.entity.Repository
 import com.squareup.picasso.Picasso
 import io.reactivex.subjects.PublishSubject
 

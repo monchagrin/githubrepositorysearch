@@ -1,6 +1,7 @@
 package com.oliwiakepczynska.githubrepositorysearch
 
-import com.oliwiakepczynska.githubrepositorysearch.repository.RepositoryDetails
+import com.oliwiakepczynska.githubrepositorysearch.domain.data.NetworkClient
+import com.oliwiakepczynska.githubrepositorysearch.domain.entity.RepositoryDetails
 import io.reactivex.subjects.PublishSubject
 import org.junit.After
 import org.junit.Assert
@@ -20,7 +21,8 @@ class RepositoryDetailsTest {
     @Before
     fun setup() {
         mockWebServer.start()
-        sut = RepositoryDetails.create(NetworkClient.create(mockWebServer.url("/").toString()), errorsStream)
+        sut = RepositoryDetails.create(
+            NetworkClient.create(mockWebServer.url("/").toString()), errorsStream)
     }
 
     @After

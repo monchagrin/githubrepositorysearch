@@ -5,7 +5,7 @@ import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.jakewharton.rxbinding2.widget.RxTextView
 import com.oliwiakepczynska.githubrepositorysearch.databinding.ContentMainBinding
-import com.oliwiakepczynska.githubrepositorysearch.repository.Repository
+import com.oliwiakepczynska.githubrepositorysearch.domain.entity.Repository
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.PublishSubject

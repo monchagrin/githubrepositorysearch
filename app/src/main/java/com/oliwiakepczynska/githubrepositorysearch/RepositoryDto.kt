@@ -1,6 +1,6 @@
 package com.oliwiakepczynska.githubrepositorysearch
 
-import com.oliwiakepczynska.githubrepositorysearch.repository.Repository
+import com.oliwiakepczynska.githubrepositorysearch.domain.entity.Repository
 
 data class RepositorySearchDto(
     val total_count: Int?,

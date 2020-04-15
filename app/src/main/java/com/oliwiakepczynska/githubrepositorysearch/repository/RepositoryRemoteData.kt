@@ -1,6 +1,9 @@
 package com.oliwiakepczynska.githubrepositorysearch.repository
 
 import com.oliwiakepczynska.githubrepositorysearch.*
+import com.oliwiakepczynska.githubrepositorysearch.domain.data.NetworkService
+import com.oliwiakepczynska.githubrepositorysearch.domain.entity.Repository
+import com.oliwiakepczynska.githubrepositorysearch.domain.entity.RepositoryDetails
 import io.reactivex.Observable
 import io.reactivex.subjects.PublishSubject
 import java.util.concurrent.TimeUnit

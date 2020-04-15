@@ -1,7 +1,7 @@
 package com.oliwiakepczynska.githubrepositorysearch
 
-import com.oliwiakepczynska.githubrepositorysearch.repository.RepositoryDetails
-import com.oliwiakepczynska.githubrepositorysearch.repository.Repository
+import com.oliwiakepczynska.githubrepositorysearch.domain.entity.RepositoryDetails
+import com.oliwiakepczynska.githubrepositorysearch.domain.entity.Repository
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 import io.reactivex.subjects.PublishSubject

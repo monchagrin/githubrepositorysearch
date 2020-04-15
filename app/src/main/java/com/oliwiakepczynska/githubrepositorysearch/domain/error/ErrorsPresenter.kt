@@ -1,4 +1,4 @@
-package com.oliwiakepczynska.githubrepositorysearch
+package com.oliwiakepczynska.githubrepositorysearch.domain.error
 
 import io.reactivex.Observable
 
@@ -7,7 +7,9 @@ interface IErrorsInteractor {
 
     companion object {
         fun create(errorsStream: Observable<Throwable>): IErrorsInteractor {
-            return ErrorsInteractor(errorsStream)
+            return ErrorsInteractor(
+                errorsStream
+            )
         }
     }
 }
