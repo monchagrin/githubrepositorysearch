@@ -7,10 +7,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a33ee16-3f22-4c46-b42c-1e7972bcf2b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/ErrorsInteractor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/ErrorsPresenter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/FragmentNavigator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryDetailsDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryDetailsFragmentInternal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryDetailsInteractor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryDetailsPresenter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryListAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryListInteractor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryListPresenter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryListView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/SingleFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/repository_details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/repository_row.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/StatsCachingException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/StatsCachingException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/NetworkClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/NetworkClient.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/repository/GithubRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/repository/GithubRepository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/repository/GithubUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/repository/GithubUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +67,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
+        <option value="layoutResourceFile" />
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
@@ -47,8 +80,20 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../oliwiakepaktual/NumberTappticProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.oliwiakepczynska.githubrepositorysearch" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Oliwia\Downloads\PROJEKTY\GithubRepositorySearch\app\src\main\java\com\oliwiakepczynska\githubrepositorysearch" />
+      <recent name="C:\Users\Oliwia\Downloads\PROJEKTY\GithubRepositorySearch\app\src\main\res\layout" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -70,7 +115,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -140,10 +185,28 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/MainActivity.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/MainActivity.kt</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

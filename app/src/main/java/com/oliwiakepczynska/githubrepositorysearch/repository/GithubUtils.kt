@@ -5,8 +5,8 @@ import io.reactivex.Observable
 import io.reactivex.subjects.PublishSubject
 
 interface GithubUtils {
-    fun findAllRepositories(): Observable<List<Repository>>
-    fun searchRepositories(query: String): Observable<RepositorySearchDto>
+    fun getAllRepositories(): Observable<List<Repository>>
+    fun searchRepository(query: String): Observable<RepositorySearchDto>
     fun getCommitsForRepository(user: String, repository: String): Observable<List<CommitsDto>>
     fun getBranchesForRepository(user: String, repository: String): Observable<List<BranchDto>>
 

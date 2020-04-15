@@ -10,10 +10,10 @@ class GithubRepository(
     private val errorsStream: PublishSubject<Throwable>
 ) : GithubUtils {
 
-    override fun findAllRepositories(): Observable<List<Repository>> =
+    override fun getAllRepositories(): Observable<List<Repository>> =
         executeRequest(api.getAllRepositories(), emptyList())
 
-    override fun searchRepositories(query: String): Observable<RepositorySearchDto> =
+    override fun searchRepository(query: String): Observable<RepositorySearchDto> =
         executeRequest(api.searchForRepositories(query), RepositorySearchDto(0, true, emptyList()))
 
     override fun getCommitsForRepository(
