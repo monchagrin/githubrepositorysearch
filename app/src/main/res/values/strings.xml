@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">GithubRepositorySearch</string>
+    <string name="repository_details">Description</string>
+    <string name="repository_last_commits">Commits last year</string>
+    <string name="repository_branches">Branches</string>
+    <string name="repository_author">Author</string>
+    <string name="repository_name">Repository Name</string>
+    <string name="repository_description">Repository Description</string>
+    <string name="number_of_commits">Example number of commits</string>
+    <string name="main_search">Search</string>
 </resources>

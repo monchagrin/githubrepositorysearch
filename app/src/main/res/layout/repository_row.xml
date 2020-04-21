@@ -30,7 +30,7 @@
                 android:ellipsize="end"
                 android:lines="1"
                 android:textStyle="bold"
-                tools:text="asdfasd fasdpofjasd pfokjwf paowkfij" />
+                tools:text="@string/repository_name" />
 
             <TextView
                 android:id="@+id/repository_row_description"
@@ -40,7 +40,7 @@
                 android:ellipsize="end"
                 android:lines="1"
                 android:textStyle="italic"
-                tools:text="asdfasdd fasd fasd fasdf asdf \nasdpofjhasd fpoasdj fpaosijfaepsoifj awepoifja sepoifjdspof ijadpfoij w \napsodfja sdpofmas pfoijasef " />
+                tools:text="@string/repository_description" />
 
         </LinearLayout>
 

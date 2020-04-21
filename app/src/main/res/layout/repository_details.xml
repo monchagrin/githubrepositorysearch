@@ -13,20 +13,20 @@
             android:ellipsize="end"
             android:lines="1"
             android:textStyle="bold"
-            tools:text="Author" />
+            android:text="@string/repository_author" />
 
         <TextView
             android:id="@+id/repository_details_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="italic"
-            tools:text="Description" />
+            android:text="@string/repository_details" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:text="Commits last year"/>
+            android:text="@string/repository_last_commits" />
         
         <TextView
             android:id="@+id/repository_details_commits"
@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:text="Branches"/>
+            android:text="@string/repository_branches"/>
 
         <TextView
             android:layout_width="match_parent"

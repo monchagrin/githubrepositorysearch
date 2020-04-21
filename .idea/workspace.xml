@@ -10,21 +10,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a33ee16-3f22-4c46-b42c-1e7972bcf2b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_scalars_2_3_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/domain/entity/Repository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/domain/entity/Repository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/domain/entity/RepositoryDetails.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/domain/entity/RepositoryDetails.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/domain/entity/RepositoryDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/domain/entity/RepositoryDto.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/domain/error/ErrorsInteractor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/domain/error/ErrorsInteractor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/base/SingleFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/base/SingleFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/detail/RepositoryDetailsFragmentInternal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/detail/RepositoryDetailsFragmentInternal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/detail/RepositoryDetailsInteractor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/detail/RepositoryDetailsInteractor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/detail/RepositoryDetailsPresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/detail/RepositoryDetailsPresenter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/list/RepositoryListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/list/RepositoryListAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/list/RepositoryListPresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/list/RepositoryListPresenter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/list/RepositoryListView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/presenter/list/RepositoryListView.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/repository/RepositoryProprietor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/repository/RepositoryProprietor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/repository/RepositoryRemoteData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/repository/RepositoryRemoteData.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryDetailsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/oliwiakepczynska/githubrepositorysearch/RepositoryDetailsTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/repository_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/repository_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/repository_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/repository_row.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +69,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GithubFollows-master" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -103,7 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.RepositoryDetailsTest.test_errors_stream_publishes_exception_when_error_occurs_on_http_request">
+  <component name="RunManager" selected="Android App.app">
     <configuration name="RepositoryDetailsTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
@@ -195,8 +202,46 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GithubRepositorySearch [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GithubRepositorySearch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GithubRepositorySearch" />
+        <item itemvalue="Gradle.GithubRepositorySearch [dependencies]" />
         <item itemvalue="Android JUnit.RepositoryDetailsTest.test_errors_stream_publishes_exception_when_error_occurs_on_http_request" />
         <item itemvalue="Android JUnit.RepositoryDetailsTest" />
       </list>
@@ -228,16 +273,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-field">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/oliwiakepczynska/githubrepositorysearch/domain/entity/Repository.kt</url>
-          <line>9</line>
-          <properties myFieldName="full_name" myClassName="com.oliwiakepczynska.githubrepositorysearch.domain.entity.Repository" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GithubRepositorySearch$GithubRepositorySearch.ic" NAME="GithubRepositorySearch Coverage Results" MODIFIED="1587415232348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/GithubRepositorySearch$GithubRepositorySearch__dependencies_.ic" NAME="GithubRepositorySearch [dependencies] Coverage Results" MODIFIED="1587415133965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
